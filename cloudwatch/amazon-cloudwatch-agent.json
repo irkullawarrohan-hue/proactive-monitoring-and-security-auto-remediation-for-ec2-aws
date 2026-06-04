@@ -1,0 +1,33 @@
+sudo bash -c 'cat > /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json << EOF
+{
+  "agent": {
+    "metrics_collection_interval": 60
+  },
+  "metrics": {
+    "namespace": "CWAgent",
+    "metrics_collected": {
+      "disk": {
+        "resources": [
+          "/"
+        ],
+        "measurement": [
+          {"name": "used_percent", "rename": "disk_used_percent"}
+        ]
+      },
+      "mem": {
+        "measurement": [
+          "used_percent"
+        ]
+      },
+      "cpu": {
+        "totalcpu": true,
+        "measurement": [
+          "usage_idle",
+          "usage_user",
+          "usage_system"
+        ]
+      }
+    }
+  }
+}
+EOF'
