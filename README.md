@@ -1,4 +1,5 @@
-CloudGuard — Monitoring and Auto-Remediation on AWS
+Proactive Monitoring & Security AutoRemediation for EC2
+
 
 Proactive cloud monitoring, serverless auto-remediation, and real-world security threat response — built for a financial services environment on AWS.
 
