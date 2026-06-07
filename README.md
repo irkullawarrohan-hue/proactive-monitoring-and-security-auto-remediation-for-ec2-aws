@@ -1,4 +1,4 @@
-**Proactive Monitoring & Security AutoRemediation for EC2**
+# Proactive Monitoring & Security AutoRemediation for EC2
 
 **Overview of Project**
 
