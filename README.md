@@ -39,15 +39,15 @@ incident response — critical skills for cloud support professionals.
 
 ## Services Used:
 
-• **Amazon EC2**: Virtual servers to simulate development and production
-environments
-• **Amazon CloudWatch**: Monitoring service for metrics, alarms, and
-automated responses
-• **AWS Lambda**: Serverless compute service for running auto-remediation
-code
+• **Amazon EC2**: Virtual servers to simulate development and production environments
+
+• **Amazon CloudWatch**: Monitoring service for metrics, alarms, and automated responses
+
+• **AWS Lambda**: Serverless compute service for running auto-remediation code
+
 • **AWS GuardDuty**: Intelligent threat detection service
-• **AWS IAM**: Identity and Access Management service for controlling
-permissions
+
+• **AWS IAM**: Identity and Access Management service for controlling permissions
 
 
 ## Architectural diagram of the project: 
